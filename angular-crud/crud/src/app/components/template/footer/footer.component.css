@@ -1,0 +1,12 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer span,
+.footer span i {
+  font-weight: bold;
+  font-size: x-small;
+}

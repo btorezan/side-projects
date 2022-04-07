@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "caneta",
+      "price": 5.99
+    },
+    {
+      "id": 2,
+      "name": "geladeira",
+      "price": 3000
+    },
+    {
+      "id": 3,
+      "name": "celular",
+      "price": 2500
+    },
+    {
+      "name": "Garrafa Térmica",
+      "price": 45,
+      "id": 4
+    },
+    {
+      "name": "Garrafa Térmica Azul",
+      "price": 45,
+      "id": 5
+    },
+    {
+      "name": "Adaptador de Tomada",
+      "price": 9.99,
+      "id": 6
+    },
+    {
+      "name": "Computadro",
+      "price": 9000,
+      "id": 7
+    }
+  ]
+}

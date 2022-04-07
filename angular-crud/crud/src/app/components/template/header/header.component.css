@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header a,
+.header span {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.header img {
+  max-height: 64px;
+}
+
+.header .title-group {
+  margin-left: 10px;
+}
+
+.header .title-group i {
+  padding-right: 5px;
+}

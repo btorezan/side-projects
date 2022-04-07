@@ -1,0 +1,19 @@
+h1 {
+  margin-top: 20px;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+i {
+  margin: 0 10px;
+}
+
+i.delete {
+  color: #e35e6b;
+}
+
+i.edit {
+  color: #d9cd26;
+}
