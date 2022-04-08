@@ -7,12 +7,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 exports.__esModule = true;
 exports.AppRoutingModule = void 0;
-var product_update_component_1 = require("./components/pages/product/product-update/product-update.component");
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var home_component_1 = require("./components/pages/home/home.component");
 var product_component_1 = require("./components/pages/product/product.component");
 var product_create_component_1 = require("./components/pages/product/product-create/product-create.component");
+var product_update_component_1 = require("./components/pages/product/product-update/product-update.component");
+var product_delete_component_1 = require("./components/pages/product/product-delete/product-delete.component");
 var routes = [
     {
         path: "",
@@ -29,6 +30,10 @@ var routes = [
     {
         path: "products/update/:id",
         component: product_update_component_1.ProductUpdateComponent
+    },
+    {
+        path: "products/delete/:id",
+        component: product_delete_component_1.ProductDeleteComponent
     },
 ];
 var AppRoutingModule = /** @class */ (function () {

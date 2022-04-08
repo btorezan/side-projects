@@ -1,18 +1,8 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "caneta",
-      "price": 5.99
-    },
-    {
-      "id": 2,
-      "name": "geladeira",
-      "price": 3000
-    },
-    {
       "id": 3,
-      "name": "celular",
+      "name": "Celular",
       "price": 2500
     },
     {
@@ -31,9 +21,29 @@
       "id": 6
     },
     {
-      "name": "Computadro",
+      "name": "Computador",
       "price": 9000,
       "id": 7
+    },
+    {
+      "name": "Garrafa d'Água",
+      "price": 2.5,
+      "id": 8
+    },
+    {
+      "name": "Celular",
+      "price": 3500,
+      "id": 9
+    },
+    {
+      "name": "Geladeira",
+      "price": 6000,
+      "id": 10
+    },
+    {
+      "name": "Goiaba",
+      "price": 2.5,
+      "id": 11
     }
   ]
 }

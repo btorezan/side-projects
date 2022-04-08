@@ -35,6 +35,10 @@ var ProductService = /** @class */ (function () {
         var url = this.baseUrl + "/" + product.id;
         return this.http.put(url, product);
     };
+    ProductService.prototype["delete"] = function (id) {
+        var url = this.baseUrl + "/" + id;
+        return this.http["delete"](url);
+    };
     ProductService = __decorate([
         core_1.Injectable({
             providedIn: "root"

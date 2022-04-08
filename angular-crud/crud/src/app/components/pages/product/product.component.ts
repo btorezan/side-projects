@@ -1,3 +1,4 @@
+import { HeaderService } from "./../../../services/header.service";
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
 
@@ -7,7 +8,13 @@ import { Router } from "@angular/router";
   styleUrls: ["./product.component.css"],
 })
 export class ProductComponent implements OnInit {
-  constructor(private route: Router) {}
+  constructor(private route: Router, headerService: HeaderService) {
+    headerService.headerData = {
+      title: "Produtos",
+      icon: "storefront",
+      routeUrl: "/products",
+    };
+  }
 
   ngOnInit(): void {}
 

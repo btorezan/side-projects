@@ -21,7 +21,13 @@ var ProductUpdateComponent = /** @class */ (function () {
             _this.product = product;
         });
     };
-    ProductUpdateComponent.prototype.updateProduct = function () { };
+    ProductUpdateComponent.prototype.updateProduct = function () {
+        var _this = this;
+        this.productService.update(this.product).subscribe(function () {
+            _this.productService.showMessage("Produto Atualizado com Sucesso!");
+            _this.router.navigate(["/products"]);
+        });
+    };
     ProductUpdateComponent.prototype.cancel = function () {
         this.router.navigate(["/products"]);
     };

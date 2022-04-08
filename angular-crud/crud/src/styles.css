@@ -11,3 +11,13 @@ body {
 .v-middle {
   vertical-align: middle;
 }
+
+.msg-error {
+  background-color: #e35e6b;
+  color: #fff;
+}
+
+.msg-success {
+  background-color: #28a745;
+  color: #fff;
+}
